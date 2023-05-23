@@ -1,19 +1,44 @@
-.thumbnail {
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: roboto,arial;
+  }
+  .thumbnail {
     width: 300px;
     display: block;
-}
+    margin-bottom: 12px;
+  }
 
-.search-bar {
+  .search-bar {
     display: block;
-}
+  }
 
-.video-title {
-    width: 300px;
-}
-
-.video-preview {
+  .video-preview {
     width: 300px;
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+  }
+
+  .channel-profile {
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+  }
+
+  .channel-picture {
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  .video-info {
+    display: inline-block;
+    width: 200px;
+     
+  }
+  .video-title {
+    font-size: 16px;
+    font-weight: 500;
+    
 }
